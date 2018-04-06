@@ -72,6 +72,7 @@ body{
 .content {
 
   padding: 5em 3em;
+  position: relative;
 }
 
 .row:after {
@@ -101,6 +102,7 @@ body{
 
 .col-content .button {
   text-align: center;
+
 }
 
 
@@ -148,6 +150,10 @@ body{
   padding-left: 55%;
 }
 
+.holder-left {
+  padding-left: 1em;
+}
+
 .central-text {
 
   text-align: center;
@@ -174,7 +180,7 @@ body{
   padding: 10px 2em;
   text-align: center;
   font-size: 16px;
-  border-radius: 5%;
+  border-radius: 10%;
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -182,6 +188,90 @@ body{
 .button:hover {
 
   -webkit-filter: brightness(120%);
+}
+
+.bgcl-white {
+
+  background-color: white;
+}
+
+.wrapper {
+
+  position: relative;
+}
+
+#section3 {
+
+
+  background-image: url('img/bg-2.jpg');
+  min-height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+
+}
+
+#section5 {
+
+
+  background-image: url('img/bg-3.jpg');
+  min-height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+  padding-top: 5em;
+  padding-bottom: 5em;
+
+  
+}
+
+#section3 p, h1 {
+
+  text-align: center;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.shadow-box {
+  background-color: rgba(242, 242, 242, 0.4);
+  padding: 1em;
+
+  border-radius: 5%;
+}
+
+#wrapper-small {
+
+  margin: 0 auto;
+  width: 50%;
+}
+
+#wrapper-small [class*='col'] {
+
+  padding-left: 0;
+}
+
+
+[class*='col'] input {
+
+  width: 100%;
+  margin: 5px 0;
+  color: black;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+    text-transform: capitalize;
 }
 
 
